@@ -18,6 +18,7 @@
     position: absolute;
     display: inline-block;
     background-color: white;
+    border: 1px solid black;
   }
 /* } */
 
@@ -35,10 +36,19 @@
   flex-direction: column;
 }
 
+.date-updated {
+  width: 100%;
+  bottom: 0px;
+  font-size: 12px;
+  margin-top: 20px;
+  text-align: center;
+}
+
 #sidebar div[class^="photo-"]:not(.photo-profile) {
   width: 20px;
   height: 20px;
   margin: auto;
+  margin-right: 15px;
   display: inline-block;
 }
 
@@ -52,11 +62,4 @@
 
 .photo-email {
   background-image: url('http://pngimg.com/uploads/email/email_PNG51.png');
-}
-
-.date-updated {
-  bottom: 0px;
-  font-size: 12px;
-  position: absolute;
-  margin-bottom: 10px;
 }
