@@ -10,6 +10,7 @@ const Sidebar = () => {
         <a href="https://www.linkedin.com/in/donguk-kim/" target="_blank" className="link-linkedin"><div className="photo-linkedin"></div>LinkedIn</a>
         <Link to="/contact" className="link-email"><div className="photo-email"></div>Email</Link>
       </div>
+      <div className="date-updated">Last update: 17 October 2018</div>
     </div>
   );
 };

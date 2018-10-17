@@ -9,6 +9,8 @@
     right: 165px;
     width: 200px;
     height: 500px;
+    color: black;
+    font-size: 15px;
     margin-top: 20px;
     padding-top: 7px;
     padding-left: 10px;
@@ -29,8 +31,6 @@
 .links-sidebar {
   margin: auto;
   display: flex;
-  color: black;
-  font-size: 15px;
   margin-top: 20px;
   flex-direction: column;
 }
@@ -52,4 +52,11 @@
 
 .photo-email {
   background-image: url('http://pngimg.com/uploads/email/email_PNG51.png');
+}
+
+.date-updated {
+  bottom: 0px;
+  font-size: 12px;
+  position: absolute;
+  margin-bottom: 10px;
 }

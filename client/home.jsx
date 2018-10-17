@@ -8,7 +8,7 @@ const Home = () => {
       <div className="stuff">
 
         <div className="languages">
-          <div>Software Engineer</div>
+          <div>I'm a Mechanical Engineer by education but a Software Engineer by </div>
         </div>
         
       </div>
