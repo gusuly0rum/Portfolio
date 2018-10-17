@@ -6,12 +6,11 @@ const Home = () => {
       <div className="title">About</div>
       <hr></hr>
       <div className="stuff">
+
         <div className="languages">
-          <div>Languages</div>
-          <div>English - Native/Fluent</div>
-          <div>Korean - Native/Fluent</div>
-          <div>French - Used to be fluent</div>
+          <div>Software Engineer</div>
         </div>
+        
       </div>
     </div>
   );

@@ -6,25 +6,42 @@
 
 @media only screen and (min-width: 1200px) {
   #sidebar {
-    right: 180px;
+    right: 165px;
     width: 200px;
     height: 500px;
     margin-top: 20px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
     position: absolute;
     display: inline-block;
     background-color: white;
   }
+}
 
-  .photo-profile {
-    width: 100%;
-    height: 250px;
-    background-image: url('../images/profile.jpeg');
-  }
+.photo-profile {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+  background-image: url('../images/profile.jpeg');
+}
 
-  .links-sidebar {
-    margin: auto;
-    display: flex;
-    color: black;
-    flex-direction: column;
-  }
+.links-sidebar {
+  margin: auto;
+  display: flex;
+  color: black;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.logo-github {
+  width: 30px;
+  height: 30px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png');
+}
+
+.logo-linkedin {
+  width: 30px;
+  height: 30px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png');
 }

@@ -4,18 +4,22 @@
 .school {
   display: flex;
   margin-bottom: 40px;
-  justify-content: space-between;
 }
 
 .photo-imperial {
   width: 50px;
   height: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Imperial_College_London_crest.svg/1200px-Imperial_College_London_crest.svg.png');
 }
 
 .photo-newcastle {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
+  margin-left: 3px;
+  margin-top: auto;
+  margin-bottom: auto;
   background-image: url('https://upload.wikimedia.org/wikipedia/en/1/14/UnivNcle-shield.png');
 }
 
@@ -28,9 +32,14 @@
 }
 
 .school-description {
+  margin-left: 30px;
 }
 
 .education-description {
   font-size: 15px;
   margin-top: 30px;
+}
+
+.link-school {
+  color: blue;
 }
