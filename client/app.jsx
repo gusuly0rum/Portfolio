@@ -5,6 +5,7 @@ import Home from './home';
 import Navbar from './navbar';
 import Skills from './skills';
 import Sidebar from './sidebar';
+import Contact from './contact';
 import Projects from './projects';
 import Interests from './interests';
 import Education from './education';
@@ -17,6 +18,7 @@ const App = () => {
       
       <Switch>
         <Route path="/skills" component={Skills} />
+        <Route path="/contact" component={Contact} />
         <Route path="/projects" component={Projects} />
         <Route path="/interests" component={Interests} />
         <Route path="/education" component={Education} />

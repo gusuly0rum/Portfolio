@@ -1,10 +1,10 @@
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
   #sidebar {
     display: none;
   }
-}
+} */
 
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) { */
   #sidebar {
     right: 165px;
     width: 200px;
@@ -17,7 +17,7 @@
     display: inline-block;
     background-color: white;
   }
-}
+/* } */
 
 .photo-profile {
   width: 100%;
@@ -30,18 +30,26 @@
   margin: auto;
   display: flex;
   color: black;
+  font-size: 15px;
   margin-top: 20px;
   flex-direction: column;
 }
 
-.logo-github {
-  width: 30px;
-  height: 30px;
+#sidebar div[class^="photo-"]:not(.photo-profile) {
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  display: inline-block;
+}
+
+.photo-github {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1024px-Octicons-mark-github.svg.png');
 }
 
-.logo-linkedin {
-  width: 30px;
-  height: 30px;
+.photo-linkedin {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png');
+}
+
+.photo-email {
+  background-image: url('http://pngimg.com/uploads/email/email_PNG51.png');
 }
