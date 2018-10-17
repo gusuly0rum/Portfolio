@@ -1,14 +1,15 @@
 import React from 'react';
 import { Route, Switch, Link } from 'react-router-dom';
 
-import Home from './home';
 import Navbar from './navbar';
-import Skills from './skills';
 import Sidebar from './sidebar';
-import Contact from './contact';
-import Projects from './projects';
-import Interests from './interests';
-import Education from './education';
+
+import Home from './pages/home';
+import Skills from './pages/skills';
+import Contact from './pages/contact';
+import Projects from './pages/projects';
+import Interests from './pages/interests';
+import Education from './pages/education';
 
 const App = () => {
   return (
