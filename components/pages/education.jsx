@@ -10,9 +10,9 @@ const Education = () => {
         <div className="school">
           <div className="photo-imperial"></div>
           <div className="school-description">
-            <div className="school-name"><a href="https://www.imperial.ac.uk" target="_blank" className="link-school">Imperial College London</a>, United Kingdom</div>
-            <div className="school-degree">Master of Science, Biomedical Engineering</div>
-            <div className="school-year">2014 - 2016</div>
+            <div><a href="https://www.imperial.ac.uk" target="_blank" className="link-school">Imperial College London</a>, United Kingdom</div>
+            <div>Master of Science, Biomedical Engineering</div>
+            <div>2014 - 2016</div>
           </div>
         </div>
 

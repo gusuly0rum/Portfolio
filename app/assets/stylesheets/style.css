@@ -8,7 +8,7 @@ html, body, #root, #app {
   font-family: 'Open Sans', sans-serif;
 }
 
-a {
+a[class^="link"] {
   color: inherit;
   cursor: pointer;
   text-decoration: none;
