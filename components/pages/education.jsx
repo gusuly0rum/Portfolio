@@ -28,7 +28,6 @@ const Education = () => {
         <div className="education-description">
           Despite studying in great institutions with great teachers, I feel that:
           <ul>
-            <li>most of what I know came from self studying</li>
             <li>what I like to do is slightly different, but related to my official degrees</li>
           </ul>
         </div>
