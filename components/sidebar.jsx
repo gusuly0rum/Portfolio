@@ -9,7 +9,7 @@ const Sidebar = () => {
         <a href="https://github.com/gusuly0rum" target="_blank" className="link-github"><div className="photo-github"></div>GitHub</a>
         <a href="https://www.linkedin.com/in/donguk-kim" target="_blank" className="link-linkedin"><div className="photo-linkedin"></div>LinkedIn</a>
         <a href="https://angel.co/dongukkim" target="_blank" className="link-angel"><div className="photo-angel"></div>AngelList</a>
-        <a href="resume.pdf" target="_blank" className="link-resume"><div className="photo-resume"></div>Résumé</a>
+        <a href="app/assets/images/resume.pdf" target="_blank" className="link-resume"><div className="photo-resume"></div>Résumé</a>
         <Link to="/contact" className="link-email"><div className="photo-email"></div>Email</Link>
       </div>
       <div className="date-updated">Last updated: 04 Nov 2018</div>
