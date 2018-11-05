@@ -8,7 +8,15 @@ const Interests = () => {
       <div className="content-interests">
         <div className="title">Interests</div>
         <hr></hr>
-        <div className="stuff"></div>
+        <div className="stuff">
+          <ul>
+            <li>Deep Learning</li>
+            <li>Computer Vision</li>
+            <li>Web Development</li>
+            <li>Historical Linguistics</li>
+            <li>Comparative Linguistics</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

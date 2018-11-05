@@ -1,11 +1,20 @@
 .content-contact .stuff {
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-email {
+  width: 300px;
+  margin-bottom: 20px;
 }
 
 .contact-title {
+  width: 300px;
+  margin-bottom: 20px;
 }
 
 .contact-body {
+  width: 500px;
+  height: 200px;
+  margin-bottom: 20px;
 }

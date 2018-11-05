@@ -5,14 +5,23 @@ const Home = () => {
   return (
     <div className="page-content">
       <Sidebar />
+
       <div className="content-home">
         <div className="title">About</div>
         <hr></hr>
         <div className="stuff">
-
-          <div className="summary">
+          <div className="summary">Software Engineer</div>
+          <div className="trivia">
+            <ul>
+              <li><b>Nationality</b>: USA</li>
+              <li><b>Grew up in</b>: Korea</li>
+              <li><b>IDEs</b>: Visual Studio 2017, Xcode</li>
+              <li><b>Text Editors</b>: Visual Studio Code</li>
+              <li><b>Operating Systems</b>: Windows 10, MacOS</li>
+              <li><b>Default Languages</b>: C++, Ruby</li>
+              <li><b>Human Languages</b>: English, Korean, French</li>
+            </ul>
           </div>
-          
         </div>
       </div>
     </div>

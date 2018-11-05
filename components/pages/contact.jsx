@@ -9,9 +9,10 @@ const Contact = () => {
         <div className="title">Contact</div>
         <hr></hr>
         <div className="stuff">
-          <input className="contact-email"></input>
-          <input className="contact-title"></input>
-          <textarea className="contact-body"></textarea>
+          <input className="contact-email" placeholder="Sender"></input>
+          <input className="contact-email" placeholder="Receiver"></input>
+          <input className="contact-title" placeholder="Email Title"></input>
+          <textarea className="contact-body" placeholder="Email Body"></textarea>
         </div>
       </div>
     </div>
