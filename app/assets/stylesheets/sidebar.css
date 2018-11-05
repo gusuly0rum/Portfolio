@@ -7,8 +7,7 @@
 @media only screen and (min-width: 1000px) {
   #sidebar {
     float: right;
-    width: 200px;
-    /* height: 500px; */
+    width: 180px;
     color: black;
     font-size: 15px;
     padding-top: 7px;
@@ -20,7 +19,7 @@
 
 .photo-profile {
   width: 100%;
-  height: 250px;
+  height: 230px;
   border-radius: 5px;
   background-image: url('../images/profile.jpeg');
 }
@@ -38,13 +37,14 @@
 
 #sidebar a[class^="link-"] {
   display: flex;
+  margin-left: 15px;
   margin-bottom: 10px;
 }
 
 #sidebar div[class^="photo-"]:not(.photo-profile) {
   width: 20px;
   height: 20px;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 .photo-github {

@@ -28,7 +28,7 @@ a[class^="link"] {
 div[class^="content-"] {
   padding: 20px;
   color: black;
-  max-width: 720px;
+  max-width: 740px;
   margin-bottom: 20px;
   background-color: white;
 }
