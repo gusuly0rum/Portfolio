@@ -8,7 +8,7 @@
   #sidebar {
     float: right;
     width: 200px;
-    height: 500px;
+    /* height: 500px; */
     color: black;
     font-size: 15px;
     padding-top: 7px;
@@ -26,26 +26,25 @@
 }
 
 .links-sidebar {
-  margin: auto;
-  display: flex;
-  margin-top: 20px;
-  flex-direction: column;
+  margin: 20px auto;
 }
 
 .date-updated {
   width: 100%;
-  bottom: 0px;
   font-size: 12px;
-  margin-top: 20px;
   text-align: center;
+  margin-bottom: 10px;
+}
+
+#sidebar a[class^="link-"] {
+  display: flex;
+  margin-bottom: 10px;
 }
 
 #sidebar div[class^="photo-"]:not(.photo-profile) {
   width: 20px;
   height: 20px;
-  margin: auto;
   margin-right: 15px;
-  display: inline-block;
 }
 
 .photo-github {
