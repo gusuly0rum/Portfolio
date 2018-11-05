@@ -2,8 +2,6 @@ import React from 'react';
 import { Route, Switch, Link } from 'react-router-dom';
 
 import Navbar from './navbar';
-import Sidebar from './sidebar';
-
 import Home from './pages/home';
 import Skills from './pages/skills';
 import Contact from './pages/contact';
@@ -15,7 +13,6 @@ const App = () => {
   return (
     <div id="app">
       <Navbar />
-      <Sidebar />
       
       <Switch>
         <Route path="/skills" component={Skills} />

@@ -8,18 +8,27 @@ html, body, #root, #app {
   font-family: 'Open Sans', sans-serif;
 }
 
+.page-content {
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
 a[class^="link"] {
   color: inherit;
   cursor: pointer;
   text-decoration: none;
 }
 
+@media only screen and (max-width: 1000px) {
+  div[class^="content-"] {
+    margin: 20px auto;
+  }
+}
+
 div[class^="content-"] {
-  width: 50%;
-  margin: auto;
   padding: 20px;
   color: black;
-  margin-top: 20px;
+  max-width: 720px;
   margin-bottom: 20px;
   background-color: white;
 }

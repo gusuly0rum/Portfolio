@@ -1,25 +1,22 @@
-/* @media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
   #sidebar {
     display: none;
   }
-} */
+}
 
-/* @media only screen and (min-width: 1200px) { */
+@media only screen and (min-width: 1000px) {
   #sidebar {
-    right: 165px;
+    float: right;
     width: 200px;
     height: 500px;
     color: black;
     font-size: 15px;
-    margin-top: 20px;
     padding-top: 7px;
     padding-left: 10px;
     padding-right: 10px;
-    position: absolute;
-    display: inline-block;
     background-color: white;
   }
-/* } */
+}
 
 .photo-profile {
   width: 100%;
