@@ -15,8 +15,8 @@ const Home = () => {
             <ul>
               <li><b>Nationality</b>: USA</li>
               <li><b>Grew up in</b>: Korea</li>
-              <li><b>IDEs</b>: Visual Studio 2017, Xcode</li>
-              <li><b>Text Editors</b>: Visual Studio Code</li>
+              <li><b>IDEs</b>: XCode</li>
+              <li><b>Text Editors</b>: VSCode</li>
               <li><b>Operating Systems</b>: Windows 10, MacOS</li>
               <li><b>Default Languages</b>: C++, Ruby</li>
               <li><b>Human Languages</b>: English, Korean, French</li>
